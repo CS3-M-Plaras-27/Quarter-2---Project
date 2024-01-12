@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="keywords" content="website">
+	<meta name="author" content="Borlasa, Plaras, Arangali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <style>
+        * {
+		margin: 0;
+		}
+		
+		.logo {
+            border: 1px;
+            padding-right: 10px;
+            height: 73px;
+			width: 75px;
+            float: left;
+            margin-top: 36px;
+            margin-left: 40px;
+        }
+
+        h1 {
+            float: left;
+            margin-top: 40px;
+            font-family: 'Montserrat';
+            font-size: 16.5px;
+            color: Black;
+			padding-right: 250px;
+        }
+		
+        .navButton {
+            padding: 25px;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 25px;
+            border: 5px solid white;
+			float: right;
+        }
+
+        nav {
+            width: 100%;
+            height: 140px;
+            background:#124F87;
+            
+        }
+
+        .navbar a {
+         float: left;
+         font-size: 20px;
+         color: white;
+         text-align: right;
+         padding: 14px 16px;
+         text-decoration: none;
+		}
+
+		.dropdown {
+		float: left;
+		overflow: hidden;
+		}
+
+		.dropdown .dropbtn {
+		font-size: 20px;  
+		border: none;
+		outline: none;
+		color: white;
+		padding: 14px 16px;
+		background-color: #124F87;
+		font-family: inherit;
+		margin: 0;
+		}
+
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		background-color: #2C7DA0;
+		}
+
+		.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		}
+
+		.dropdown-content a {
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		}
+
+		.dropdown-content a:hover {
+		background-color: #ddd;
+		}
+
+		.dropdown:hover .dropdown-content {
+		display: block;
+		}
+		
+		.container { 
+			margin: 50px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			overflow: hidden; 
+			display: flex;
+		}
+		
+		.f1{
+		width: auto;
+        height: 200px;
+		}
+		
+		.box {
+		flex: 1; 
+		box-sizing: border-box; 
+		padding: 20px; 
+		margin: 5px; 
+		text-align: center; 
+		
+        }
+
+		.left-div, .right-div {
+		flex: 1; 
+		box-sizing: border-box; 
+		padding: 20px; 
+		margin: 5px;
+		text-align: center;
+		}
+		
+		.pisay{
+		text-align: center;
+		}
+		
+		footer {
+		text-align: center;
+		padding: 3px;
+		background-color: #124F87;
+		color: white;
+		height: 30px;
+		}
+		
+		p {
+		margin-left: 50px;
+		margin-top: 20px;
+		text-decoration: bold;
+		}
+		
+		
+    </style>
+</head>
+<body>
+
+	<nav>
+        <img src="logo3.png" alt="" class="logo">
+	 
+	 	<h1> Republic of the Philippines <br>
+		    Department of Science and Technology <br>
+			PHILIPPINE SCIENCE HIGH SCHOOL - CARAGA REGION CAMPUS
+		</h1>
+	
+        <div class="navbar">
+            <a href="homepage01.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">About us <i class="fa fa-caret-down"></i>
+        </button>
+		
+        <div class="dropdown-content">
+            <a href="campus.html">Campus</a>
+            <a href="education.html">Education</a>
+            <a href="events.html">Events</a>
+			<a href="Page5.html">PSHS-CRC</a>
+        </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Contacts
+            <i class="fa fa-caret-down"></i>
+  	   </button>
+	   
+        <div class="dropdown-content">
+             <a href="#">kborlasa@crc.pshs.edu.ph</a>
+             <a href="#">mplaras@crc.pshs.edu.ph</a>
+             <a href="#">larangali@crc.pshs.edu.ph</a>
+        </div>
+        </div> 
+
+        </div>
+    </nav>
+
+   <p><b>Events,</b><p>
+	
+	<div class="container">
+        <div class="box" id="box1">
+			<img src="clubs.jpg" alt="img" class="f1">
+			<p>PSHS-CRC has clubs ranging from dibuho (art club) club to sports club to further develop the scholars, not just in the field of STEM, but also their individual skills and talents.
+			These clubs enhance the scholars’ talents in dancing and singing and further expand their creativity.
+			<br><br>
+			Let learning be not just from the board and classroom but also learn from fun and talents! 
+			<b>PSHS-CRC clubs list: </b>
+			<ul>
+			   <li> Dibuho club </li> 
+			   <li>Home economics club 
+			   <li> Glee club</li>
+			   <li> Performing arts club 
+			   <li> Robotics Club </li> 
+			   <li> Indoor sports club</li> 
+			   <li> Outdoor sports </li>
+			    <li> Debate club </li>
+			</ul>
+			</div>
+			
+        <div class="box" id="box2">
+            <img src="Trip.jpg" alt="img" class="f1">
+			<p>The Philippine Science High School - Caraga Region Campus conduct field trips for scholars to further expand their knowledge and enhance the scholars’ learning experience.
+			<br><br>
+			In planning field trips, Pisay CRC ensure safety measures are in place, creates a fun learning experience for scholars, and that the field trips that will be conducted is align with the curriculum to further maximize its educational value.
+        </div>
+        <div class="box" id="box3">
+			<img src="Festival.jpg" alt="img" class="f1">
+            Here at the Philippine Science High School - Caraga Region Campus celebrates the STEM festival. This event includes interactive exhibits, educational activities and contests that allows the students to engage and participate in hands-on learning experiences. 
+			<br><br>
+			Additionally, this festival aims to inspire the students to take interest in STEM fields and motivate them to take a STEM related course. 
+			<br><br>
+			This event is an eye opener for the scholars of PSHS-CRC to see the world of science, technology, engineering, and mathematics to prepare them for their STEM related course in the future. 
+		</div>
+    </div>
+	
+	<div class="container">
+        <div class="left-div">
+            <img src="Intrams.jpg" alt="img" class="f1"><br>
+			PSHS-CRC celebrates intramurals with flying colors and meaningful experiences. This event unleashes students’ sportsmanship and hidden skills in sports. 
+			<br><br>
+			Here in Pisay Caraga, intramurals offer opportunities for scholars to participate and have fun and engage with their batchmates and compete with other batches. Promoting physical fitness, teamwork, social interaction and good sportsmanship.
+        </div>
+        <div class="right-div">
+            <img src="Musical.jpg" alt="img" class="f1"><br>
+			Pisay Caraga is here to showcase the scholars’ talents in music, singing, and dancing. As PSHS-CRC not just focuses on the intelligence of scholars but also their special talents of every individual. 
+			<br><br>
+			Musical is one of the events that is held here in Pisay enhancing the scholars’ talent in performing and giving them a fun experience and meaningful memories here in Philippine Science High School - Caraga Region Campus.  
+        </div>
+    </div>
+	
+	<p class="pisay">#IAMPISAY</p>
+	
+	<footer>
+		<p> © 2024 PisayCRC BuzzHub. All Rights Reserved. </p>
+	</footer>
+	
+</body>
+</html>

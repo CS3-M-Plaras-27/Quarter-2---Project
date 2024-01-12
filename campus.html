@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="website">
+	<meta name="author" content="Borlasa, Plaras, Arangali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+		
+		.logo {
+            border: 1px;
+            padding-right: 10px;
+            height: 73px;
+			width: 75px;
+            float: left;
+            margin-top: 36px;
+            margin-left: 40px;
+        }
+
+        h1 {
+            float: left;
+            margin-top: 40px;
+            font-family: 'Montserrat';
+            font-size: 16.5px;
+            color: Black;
+			padding-right: 200px;
+        }
+		
+        .navButton {
+            padding: 25px;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 25px;
+            border: 5px solid white;
+			float: right;
+        }
+
+        nav {
+            width: 100%;
+            height: 140px;
+            background:#124F87;
+            
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 20px;
+            color: white;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+       .dropdown {
+            float: left;
+            overflow: hidden;
+        } 
+
+       .dropdown .dropbtn {
+           font-size: 20px;  
+           border: none;
+           outline: none;
+           color: white;
+           padding: 14px 16px;
+           background-color: #124F87;
+           font-family: inherit;
+           margin: 0;
+        }
+
+       .navbar a:hover, .dropdown:hover .dropbtn {
+           background-color: #2C7DA0;
+        }
+
+       .dropdown-content {
+           display: none;
+           position: absolute;
+           background-color: #f9f9f9;
+           min-width: 160px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+        }
+
+      .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+     .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+
+     .dropdown:hover .dropdown-content {
+         display: block;
+        }
+
+     .row::after {
+         content: "";
+         clear: both;
+         display: table;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 15px;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+			outline: 3px solid #0c427a;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+			scale:
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #04AA6D;
+            color: white;
+            font-size: 14px;
+            padding: 16px;
+            border-radius: 10px;
+        }
+	
+       footer {
+          text-align: center;
+          padding: 3px;
+          background-color: #124F87;
+          color: white;
+          height: 30px;
+        } 
+	
+	
+    </style>
+</head>
+
+<header>
+	<nav>
+        <img src="logo3.png" alt="" class="logo">
+	 
+	 	<h1> Republic of the Philippines <br>
+		    Department of Science and Technology <br>
+			PHILIPPINE SCIENCE HIGH SCHOOL - CARAGA REGION CAMPUS
+		</h1>
+	
+        <div class="navbar">
+            <a href="homepage01.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">About us <i class="fa fa-caret-down"></i>
+        </button>
+		
+        <div class="dropdown-content">
+            <a href="campus.html">Campus</a>
+            <a href="education.html">Education</a>
+            <a href="events.html">Events</a>
+			<a href="Page5.html">PSHS-CRC</a>
+        </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Contacts
+            <i class="fa fa-caret-down"></i>
+  	   </button>
+	   
+        <div class="dropdown-content">
+             <a href="#">kborlasa@crc.pshs.edu.ph</a>
+             <a href="#">mplaras@crc.pshs.edu.ph</a>
+             <a href="#">larangali@crc.pshs.edu.ph</a>
+        </div>
+        </div> 
+
+        </div>
+    </nav>
+</header>
+
+<body>
+    <h2> Do you want to be a Pisay scholar here in PSHS-CRC?</h2>
+    <p>Here are the buildngs that the Pisay scholars will be using
+	   for their academics and extracurricular activities here in Caraga Region Campus. 
+	   Explore the one and only Caraga Region Campus! </p>
+
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <img src="acad1.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">Academic building II (Acad 1) or the main building is where the guidance office, registrar 
+					office and classrooms of grade 7, 8, 9 and 10 scholars. The AVR or the audio visual room and the discipline 
+					office is also located here. Lively isn't it?
+ 
+						</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="acad2.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The academic building II (Acad 2) is where the computer laboratories are found. 
+					A perfect place for your class with your adviser, like math, statistics and computer science subjects. 
+					Cool right? This place is where the scholars can fully focus on their classes, especially 
+					if it's a computer science subject, since it's the perfect environment for learning. 
+</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="acad3.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The academic building III (Acad 3) is where the biology, chemistry, and physics 
+					laboratories are found. This building is where the scholars conduct their activities or experiments for 
+					their learning and development. A perfect environment to study and conduction of experiments. 
+</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="acad4.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The academic building IV (Acad 4)  is the newly finished building of PSHS-CRC. 
+					This is where the classrooms of the advancement year scholars, grade 11 and 12, are found. 
+					The CID office is also found here along with the offices of the subject teachers of PSHS-CRC.  
+</div>
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="fablab.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The Fab Lab (Fabrication laboratory) is the place where the scholars 
+					can create, a place for them to learn, develop their skills in inventing and a place for 
+					them to see the wonders of robotics and technology. 
+</div>
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="lib.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The PSHS-CRC library is where students spend of most their free time. Scholars can be 
+					seen studying, taking naps, and quietly spend quality time with friends. Do you want to experience this too?</div>
+                        
+                </div>
+            </div>
+        </div>
+		
+		 <div class="row">
+        <div class="column">
+            <div class="container">
+                <img src="dorm1.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The Dormitory I is a 3 story building. This was the only 
+					dormitory for scholars of PSHS-CRC for the older batches until the completion of Dormitory II.
+					</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="dorm2.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">After the completion of Dormitory II, female scholars occupied the new building while 
+					the boys occupied dormitory I. This is the 2nd home of dormers, filled with fun memories with roommtaes, 
+					bacthmates, and classmates
+</div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="column">
+            <div class="container">
+                <img src="center.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text"> This building is also a 3 story building. The activity center is the liveliest 
+					during band practices and glee club meetings. The ground
+					floor and second floor is the canteen while the 3rd floor is the student activity center.
+					</div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="column">
+            <div class="container">
+                <img src="grand.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">Grandstand is the most lively place especially after class, since students 
+					go here to play games such as volleyball, badminton, and etc. Other students also come here to sit 
+					and relax, talk with their friends, and watch other students playing.
+					</div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="column">
+            <div class="container">
+                <img src="gym.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">The PSHS-CRC gymnasium is where all the events of PSHS-CRC are held here. 
+					This place is also where the indoor sports club members spend their time during club meetings every 
+					Wednesday. Fun isn't it?
+					</div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="column">
+            <div class="container">
+                <img src="admin.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text">Admin office or administration office is the area where staff members who are 
+					in charge of creating, executing, and assessing district and school systems and policies as well 
+					as instructional leadership are seen. Campus Director, Cashiers, and other important staff can 
+					be seen in admin office.
+
+                   </div>
+                </div>
+            </div>
+        </div>
+
+		
+    </div>
+
+</body>
+
+<footer>
+<p> © 2024 PisayCRC BuzzHub. All Rights Reserved. </p>
+</footer>
+ 
+</html>
